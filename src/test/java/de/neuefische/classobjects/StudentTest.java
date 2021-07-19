@@ -1,6 +1,5 @@
 package de.neuefische.classobjects;
-
-import jdk.jfr.Description;
+import de.neuefische.classobjects.model.Student;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -42,5 +41,15 @@ class StudentTest {
         int checkInt = student.getId();
         //THEN
         assertEquals(checkInt, 5);
+    }
+    @Test
+    @DisplayName("Testing String")
+    public void checkingToString() {
+        //GIVEN
+        Student student = new Student("test","testy",1);
+        //WHEN
+        String testString = student.toString();
+        //THEN
+        assertEquals(testString, "test testy 1");
     }
 }

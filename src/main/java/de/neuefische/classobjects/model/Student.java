@@ -1,4 +1,4 @@
-package de.neuefische.classobjects;
+package de.neuefische.classobjects.model;
 
 public class Student {
     private String firstName;
@@ -27,6 +27,11 @@ public class Student {
     }
     public void setId(int id){
         this.id=id;
+    }
+
+    public String toString(){
+        String studentString = firstName + " " + lastName + " " + id;
+        return studentString;
     }
 
 
