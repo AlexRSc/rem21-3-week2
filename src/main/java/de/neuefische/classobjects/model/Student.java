@@ -1,5 +1,7 @@
 package de.neuefische.classobjects.model;
 
+import java.util.Objects;
+
 public class Student {
     private String firstName;
     private String lastName;
@@ -28,11 +30,22 @@ public class Student {
     public void setId(int id){
         this.id=id;
     }
-
+    @Override
     public String toString(){
         String studentString = firstName + " " + lastName + " " + id;
         return studentString;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return id == student.id && firstName.equals(student.firstName) && lastName.equals(student.lastName);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName, id);
+    }
 }

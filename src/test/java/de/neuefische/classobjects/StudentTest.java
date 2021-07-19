@@ -52,4 +52,15 @@ class StudentTest {
         //THEN
         assertEquals(testString, "test testy 1");
     }
+    @Test
+    @DisplayName("Testing Equals Method")
+    public void checkIfObjectsEqual() {
+        //GIVEN
+        Student student1=new Student("senor","blub", 50);
+        Student student2=new Student("senor","blub", 50);
+        //WHEN
+        boolean isTrue=student1.equals(student2);
+        //THEN
+        assertTrue(isTrue);
+    }
 }

@@ -8,9 +8,10 @@ public class AppMain {
         System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getId());
         String studentOutput = student.toString();
         System.out.println(studentOutput);
-        Student student2 = new Student("blub", "blib", 200);
+        Student student2 = new Student("Peter", "Lustig", 1);
         studentOutput = student2.toString();
         System.out.println(studentOutput);
+        System.out.println(student.equals(student2));
         }
 
     }
