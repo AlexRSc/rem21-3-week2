@@ -30,11 +30,12 @@ public class Student {
     public void setId(int id){
         this.id=id;
     }
+    /*
     @Override
     public String toString(){
         String studentString = firstName + " " + lastName + " " + id;
         return studentString;
-    }
+    }*/
 
     @Override
     public boolean equals(Object o) {

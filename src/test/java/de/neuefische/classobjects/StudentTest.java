@@ -42,6 +42,7 @@ class StudentTest {
         //THEN
         assertEquals(checkInt, 5);
     }
+    /*
     @Test
     @DisplayName("Testing String")
     public void checkingToString() {
@@ -51,7 +52,7 @@ class StudentTest {
         String testString = student.toString();
         //THEN
         assertEquals(testString, "test testy 1");
-    }
+    }*/
     @Test
     @DisplayName("Testing Equals Method")
     public void checkIfObjectsEqual() {
@@ -62,5 +63,16 @@ class StudentTest {
         boolean isTrue=student1.equals(student2);
         //THEN
         assertTrue(isTrue);
+    }
+    @Test
+    @DisplayName("Testing Equals Method")
+    public void checkIfObjectsDifferent() {
+        //GIVEN
+        Student student1=new Student("senor","blub", 50);
+        Student student2=new Student("senor","blab", 50);
+        //WHEN
+        boolean isFalse=student1.equals(student2);
+        //THEN
+        assertFalse(isFalse);
     }
 }
