@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AT"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire/surefirebooter6645032032353110088.jar /Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire 2021-07-19T14-04-43_473-jvmRun1 surefire548456838498280901tmp surefire_05156967988155318863tmp"/>
+    <property name="sun.java.command" value="/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire/surefirebooter17681304682585985118.jar /Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire 2021-07-19T14-08-42_869-jvmRun1 surefire14265076280829559633tmp surefire_010260006219713374280tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/test-classes:/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/classes:/Users/alexanderschaer/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0-M1/junit-jupiter-5.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0-M1/junit-jupiter-api-5.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/alexanderschaer/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alexanderschaer/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0-M1/junit-jupiter-params-5.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0-M1/junit-jupiter-engine-5.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar:/Users/alexanderschaer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar:/Users/alexanderschaer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/Users/alexanderschaer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/Users/alexanderschaer/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/alexanderschaer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire/surefirebooter6645032032353110088.jar"/>
+    <property name="surefire.real.class.path" value="/Users/alexanderschaer/IdeaProjects/Maven-project/java-21-3-week2/target/surefire/surefirebooter17681304682585985118.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.1+0"/>
@@ -54,7 +54,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="checkingSetGetLastName" classname="de.neuefische.classobjects.StudentTest" time="0.018"/>
-  <testcase name="checkingSetGetFirstName" classname="de.neuefische.classobjects.StudentTest" time="0.002"/>
+  <testcase name="checkingSetGetLastName" classname="de.neuefische.classobjects.StudentTest" time="0.017"/>
+  <testcase name="checkingSetGetFirstName" classname="de.neuefische.classobjects.StudentTest" time="0.001"/>
   <testcase name="checkingSetGetId" classname="de.neuefische.classobjects.StudentTest" time="0.001"/>
 </testsuite>
